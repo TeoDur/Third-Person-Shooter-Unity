@@ -1,0 +1,25 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+RWTexture2D<float4> positionTexture;
+RWTexture2D<float4> normalTexture;
+
+StructuredBuffer<float3> positionBuffer;
+StructuredBuffer<float3> normalBuffer;
+
+int vertexCount;
+static const int nThreadsX = 256;
+
+[numthreads(nThreadsX,1,1)]
+void CSMain (uint2 id : SV_DispatchThreadID)
+{
+  int monoIdx = id.x + id.y * nThreadsX;
+
+  if (monoIdx > vertexCount)
+  {
+    return;
+  }
+
+  positionTexture[id] = float4(positionBuffer[monoIdx], 0);
+  normalTexture[id]   = float4(normalBuffer[monoIdx], 0);
+}

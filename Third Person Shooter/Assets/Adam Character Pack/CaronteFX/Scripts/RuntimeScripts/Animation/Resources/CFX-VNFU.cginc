@@ -1,0 +1,24 @@
+#define cfx49 Texture2D
+#define cfx51 RWTexture2D
+#define cfx5932(X, A) X##A
+#define cfx50 StructuredBuffer
+#define cfx44 vc
+#define cfxr x
+#define cfxq y
+#define cfx12 return
+#define cfx3259(X) X##n
+#define cfx8 if
+#define cfx33 break
+#define cfx9 cross
+#define cfx1 dot
+#define cfxw normalize
+#define cfx9352(X) X##t
+#define cfx19 r
+#define cfx55 sincos
+#define cfx48 numthreads
+#define cfx3592(X) X##o
+#define cfx57 CSMain
+#define cfx54 SV_DispatchThreadID
+#define cfx16 w
+#define cfx47 GetDimensions
+#define cfx52 z

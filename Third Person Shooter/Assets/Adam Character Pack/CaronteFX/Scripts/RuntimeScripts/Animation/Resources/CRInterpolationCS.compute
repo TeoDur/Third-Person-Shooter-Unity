@@ -1,0 +1,18 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+Texture2D<float4> texture1;
+Texture2D<float4> texture2;
+
+RWTexture2D<float4> textureOutput;
+
+float t;
+
+static const int nThreadsX = 256;
+
+[numthreads(nThreadsX,1,1)]
+void CSMain (uint2 id : SV_DispatchThreadID)
+{
+  int monoIdx = id.x + id.y * nThreadsX;
+  textureOutput[id] = lerp(texture1[id], texture2[id], t);
+}

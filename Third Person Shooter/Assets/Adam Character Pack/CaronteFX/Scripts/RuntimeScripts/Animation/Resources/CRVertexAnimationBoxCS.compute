@@ -1,0 +1,47 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+RWTexture2D<float4> positionTexture;
+RWTexture2D<float4> normalTexture;
+
+StructuredBuffer<uint2> positionBuffer;
+StructuredBuffer<uint>  normalBuffer;
+
+int vertexCount;
+
+float4 boundsMin;
+float4 boundsMax;
+
+static const int nThreadsX = 256;
+
+[numthreads(nThreadsX,1,1)]
+void CSMain (uint2 id : SV_DispatchThreadID)
+{
+  int monoIdx = id.x + id.y * nThreadsX;
+
+  if (monoIdx > vertexCount)
+  {
+    return;
+  }
+
+  const float vecQuantz = 1.0 / 127.0;
+  const float posQuantz = 1.0 / 65535.0;
+
+  uint2 posComp = positionBuffer[monoIdx];
+
+  uint posCompX = (posComp.x & 0x0000FFFF);
+  uint posCompY = (posComp.x & 0xFFFF0000) >> 16u;
+  uint posCompZ = (posComp.y & 0x0000FFFF);
+
+  float4 boundSize = (boundsMax - boundsMin) * posQuantz;
+  float4 posDescomp = boundsMin + float4(posCompX, posCompY, posCompZ, 0) * boundSize;
+  positionTexture[id] = posDescomp;
+
+  uint normComp = normalBuffer[monoIdx];
+  float normCompX = float( (normComp & 0x000000FF) >> 0u ) - 128.0;
+  float normCompY = float( (normComp & 0x0000FF00) >> 8u ) - 128.0;
+  float normCompZ = float( (normComp & 0x00FF0000) >> 16u) - 128.0;
+
+  float4 normDescomp = float4(normCompX, normCompY, normCompZ, 0.0) * vecQuantz;
+  normalTexture[id] = normDescomp;
+}
