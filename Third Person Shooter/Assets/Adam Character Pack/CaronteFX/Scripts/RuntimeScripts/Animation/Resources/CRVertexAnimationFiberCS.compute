@@ -1,0 +1,61 @@
+#include "CFX-VAC.cginc"
+
+#pragma kernel CSMain
+cfx51<cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4)>cfx3259(cfx2395(uf),0);cfx33<cfx2593(uin)>cfx3259(cfx2395(uf),2);cfx33<cfx2593(uin)>cfx3259(cfx2395(uf),3);cfx2593(uin) cfx3259(cfx2395(uf),n);cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4) cfx3259(cfx2395(uf),m);
+cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4) cfx3259(cfx2395(uf),M);cfx3259(cfx2593(cfx3259(cfx2593(s),a)),ic) cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx37=3.1415926535897932384626433832795;
+cfx3259(cfx2593(cfx3259(cfx2593(s),a)),ic) cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx43=1.6180339887498948482045868343656;cfx2593(cfx3259(cfx2395(fl),a)) cfx47(
+cfx2593(cfx3259(cfx2395(fl),a)) cfxz,cfx2593(cfx3259(cfx2395(fl),a)) cfx12){cfx4(cfxz*cfx12-cfx3259(cfx2395(cfx2395(fl)),r)(cfxz*cfx12));}cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4) cfx40(
+cfx2593(cfx3259(cfx2395(fl),a)) cfx10,cfx2593(cfx3259(cfx2395(fl),a)) cfx24){cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx9=2.0*cfx37*cfx50(cfx10* (cfx43-
+1.0));cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx5=1.0-(2.0*cfx10+1.0)/cfx24;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx17=cfx3259(sqr,t)(
+1.0-cfx5*cfx5);cfx4 cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4)(cfx3259(cfx2395(c),s)(cfx9) *cfx17,cfx5932(cfx3259(s,i))(cfx9) *cfx17,cfx5,
+0.0);}cfx3259(cfx2395(v),id) cfxt(cfx2593(uin) cfxj,cfx2593(uin) cfxk,cfx2593(uin) cfxm,cfx2593(uin) cfxl,cfx2593(cfx3259(cfx2395(cfx5932(i)),u)) cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4)
+cfxh){cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx19=1.0f/31.0f;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx20=32768.0;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4)
+cfx41=cfx40((cfx2593(cfx3259(cfx2395(fl),a)))cfxj,cfx20);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx21=(cfx2593(cfx3259(cfx2395(fl),a)))(cfxk) *cfx19;
+cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx16=(cfx2593(cfx3259(cfx2395(fl),a)))(cfxm) *0.000001f;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx42=(cfx2593(cfx3259(cfx2395(fl),a)))(cfxl) *
+0.000001f;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx39=cfx16+(cfx42-cfx16) *cfx21;cfxh+=cfx41*
+cfx39;}cfx3259(cfx2593(cfx5932(ui)),2) cfxr(cfx2593(uin) cfx11,cfx2593(uin) cfx14){cfx3259(cfx2593(cfx5932(ui)),2) cfx7;cfx7.cfx0=cfx11%
+cfx14;cfx7.cfx1=cfx11/cfx14;cfx4 cfx7;}[cfx49(32,1,1)]cfx3259(cfx2395(v),id) cfx57(
+cfx2593(uin) cfx15:cfx56){cfxs(cfx15>=cfx3259(cfx2395(uf),n)){cfx4;}cfx2593(uin) cfx8=cfx15;cfx2593(cfx3259(cfx2395(fl),a)) cfxo,
+cfx28;cfx3259(cfx2395(uf),0).cfx45(cfxo,cfx28);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx52=16;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(cfx3259(cfx2395(fl),a)) cfx6=
+0.000015259021896696421759365224689097f;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx35=49;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin)
+cfx29=12;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx26=0x0000FFFF;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxu=0xFFFFFFFF;cfx2593(uin)
+cfxc=cfx8*cfx35;cfx2593(uin) cfxe=cfx8*cfx29;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx13=cfx3259(cfx2395(uf),2)[cfxe];++
+cfxe;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx32=cfx13&cfx26;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx27=cfx13>>16;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin)
+cfx23=cfx3259(cfx2395(uf),2)[cfxe];++cfxe;cfx3259(cfx2593(cfx3259(cfx2395(fl),a)),4) cfxh;cfxh.cfx0=cfx3259(cfx2395(uf),m).cfx0+(cfx3259(cfx2395(uf),M).cfx0-cfx3259(cfx2395(uf),m)
+.cfx0) * (cfx2593(cfx3259(cfx2395(fl),a)))cfx32*cfx6;cfxh.cfx1=cfx3259(cfx2395(uf),m).cfx1+(cfx3259(cfx2395(uf),M).cfx1-cfx3259(cfx2395(uf),m).cfx1) *
+(cfx2593(cfx3259(cfx2395(fl),a)))cfx27*cfx6;cfxh.cfx3=cfx3259(cfx2395(uf),m).cfx3+(cfx3259(cfx2395(uf),M).cfx3-cfx3259(cfx2395(uf),m).cfx3) * (cfx2593(cfx3259(cfx2395(fl),a)))cfx23
+ *cfx6;cfxh.cfxo=0;cfx2593(uin) cfx38=cfx3259(cfx2395(uf),3)[cfxc];cfx3259(cfx2593(cfx5932(ui)),2) cfx22=cfxr(cfx38,cfxo);
+++cfxc;cfx3259(cfx2395(uf),0)[cfx22]=cfxh;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxy=32767;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxw=31;cfx2593(cfx3259(cfx5932(cfx2395(c)),s))
+cfx2593(uin) cfx44=28672;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx30=32752;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfx36=30;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin)
+cfx34=32512;cfx3259(cfx2395(f),r)(cfx2593(cfx5932(i)) cfxz=0;cfxz<2;++cfxz){{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[
+cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(cfxg,cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];
+cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxj=cfx3259(cfx2395(uf),2)[cfxe]&cfxy;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin)
+cfxk=(cfx3259(cfx2395(uf),2)[cfxe]>>15)&cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=
+cfxu){cfx3259(cfx2395(uf),0)[cfxn]=cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=
+cfxr(cfxg,cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc
+++];cfx2593(uin) cfxj=(cfx3259(cfx2395(uf),2)[cfxe++]>>20);cfxj|=(cfx3259(cfx2395(uf),2)[cfxe]<<12)&cfx44;cfx2593(cfx3259(cfx5932(cfx2395(c)),s))
+cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe]>>3)&cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(
+cfxg!=cfxu){cfx3259(cfx2395(uf),0)[cfxn]=cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2)
+cfxn=cfxr(cfxg,cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[
+cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxj=(cfx3259(cfx2395(uf),2)[cfxe]>>8)&cfxy;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe
+]>>23)&cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){cfx3259(cfx2395(uf),0)[cfxn
+]=cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(cfxg,cfxo);
+cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(uin) cfxj=(
+cfx3259(cfx2395(uf),2)[cfxe++]>>28);cfxj|=(cfx3259(cfx2395(uf),2)[cfxe]<<4)&cfx30;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[
+cfxe]>>11)&cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){cfx3259(cfx2395(uf),0)[
+cfxn]=cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(cfxg,
+cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s))
+cfx2593(uin) cfxj=(cfx3259(cfx2395(uf),2)[cfxe]>>16)&cfxy;cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe++]>>31);cfxk|=(
+cfx3259(cfx2395(uf),2)[cfxe]<<1)&cfx36;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){
+cfx3259(cfx2395(uf),0)[cfxn]=cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(
+cfxg,cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];
+cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxj=(cfx3259(cfx2395(uf),2)[cfxe]>>4)&cfxy;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe]>>19)&
+cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){cfx3259(cfx2395(uf),0)[cfxn]=cfxh;
+}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(cfxg,cfxo);cfx2593(cfx3259(cfx5932(cfx2395(c)),s))
+cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(uin) cfxj=(cfx3259(cfx2395(uf),2)[
+cfxe++]>>24);cfxj|=(cfx3259(cfx2395(uf),2)[cfxe]<<8)&cfx34;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe]>>
+7)&cfxw;cfxt(cfxj,cfxk,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){cfx3259(cfx2395(uf),0)[cfxn]=
+cfxh;}}{cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxg=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx3259(cfx2593(cfx5932(ui)),2) cfxn=cfxr(cfxg,cfxo);
+cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxm=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxl=cfx3259(cfx2395(uf),3)[cfxc++];cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxj
+=(cfx3259(cfx2395(uf),2)[cfxe]>>12)&cfxy;cfx2593(cfx3259(cfx5932(cfx2395(c)),s)) cfx2593(uin) cfxk=(cfx3259(cfx2395(uf),2)[cfxe]>>27);cfxt(cfxj,cfxk
+,cfxm,cfxl,cfxh);cfxs(cfxg!=cfxu){cfx3259(cfx2395(uf),0)[cfxn]=cfxh;}}cfxe++;}}
